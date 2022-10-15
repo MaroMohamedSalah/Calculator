@@ -152,7 +152,7 @@ body .container{
     left: 44px;
 }
 
-@media screen and (min-width: 375px) and (max-width: 768px) {
+@media screen  and (max-width: 768px) {
     .calc {
         width: 95%;
         height: 82%;
@@ -232,12 +232,18 @@ body .container{
     box-shadow: 0px 3px var(--keyShadow2);
     color: var(--textColor2);
 }
-@media screen and (min-width: 375px) and (max-width: 768px) {
+@media screen  and (max-width: 768px) {
     .body{
         grid-template-columns: repeat(4 , 1fr);
+        gap: 16px;
+        padding: 14px;
     }
     .body div{
         height: 114%;
+    }
+    #reset,
+    #del{
+        font-size: 15px;
     }
 }
 .attribution {
